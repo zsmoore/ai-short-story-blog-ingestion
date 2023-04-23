@@ -15,15 +15,15 @@ DATABASE_ID = 'DATABASE_ID'
 MODEL = 'gpt-3.5-turbo'
 WORD_COUNT = 3000
 PROMPT = '''
-Provide me a title for a blog post about something that happened on {0} in the past.
+Provide me a title for a blog post about a short story
 Then give me SEO tags for the blog post.
 Then provide me an seo friendly url slug.
-Then write me a blog post with over {1} words about the same event using professional language.
+Then write me a blog post with over {1} words about the same short story using professional language.
 Do not include media.
 Provide this information for me in json.
 '''
 
-DESCRIPTION = "Placeholder"
+DESCRIPTION = "Story of the Day"
 
 RETRY_COUNT = 5
 
